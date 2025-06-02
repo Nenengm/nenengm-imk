@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Javasript-->
+    <script>
+        function redirectCity() {
+            const select = document.getElementById("city-select");
+            const cityPage = select.value;
+            if (cityPage) {
+                window.location.href = cityPage;
+            }
+        }
+    </script>
+    
+    <!-- my css -->
+    <link rel="stylesheet"  href="style.css">
+
+    <title>Soul Of The Mountains!</title>
+  </head>
+  <body>
+
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-primary">
+      <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="Softhmount" class="logo-img">
+        Soul Of The Mountains
+      </a>
+    </div>
+      <div class="container">
+        <div class="d-flex">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="../about/about.html">About</a>
+          <a class="nav-link" href="../contact/contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    
+    
+    <!--akhir navbar-->   
+
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+        <h1 class="display-4">SOUL OF THE MOUNTAINS!</h1>
+        <div class="dropdown-container">
+            <select class="dropdown-select" id="city-select" onchange="redirectCity()">
+                <option value="" disabled selected>Pilih Kota</option>
+                <option value="../kota/bandung.html">Bandung</option>
+                <option value="../kota/lembang.html">Lembang</option>
+                <option value="../kota/garut.html">Garut</option>
+                <option value="../kota/tasikmalaya.html">Tasikmalaya</option>
+                <option value="../kota/cirebon.html">Cirebon</option>
+                <option value="../kota/bogor.html">Bogor</option>
+                <option value="../kota/sukabumi.html">Sukabumi</option>
+                <option value="../kota/sumedang.html">Sumedang</option>
+                <option value="../kota/cianjur.html">Cianjur</option>
+                <option value="../kota/purwakarta.html">Purwakarta</option>
+                <option value="../kota/banjar.html">Kuningan</option>
+                <option value="../kota/majalengka.html">Majalengka</option>
+                <option value="../kota/subang.html">Subang</option>
+                <option value="../kota/depok.html">Depok</option>
+                <option value="../kota/bekasi.html">Bekasi</option>
+            </select>
+        </div>
+        <p class="lead">"Gunung-gunung di Jawa Barat adalah tempat di mana langit menyapa bumi, dan setiap puncaknya menyimpan keindahan tak terlupakan."</p>
+    </section>
+    
+    
+    <!-- akhir jumbotron-->
+
+    <!-- Open Trip -->
+    <section id="Open Trip">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>OPEN TRIP</h2>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <!-- Gunung Tangkuban Parahu -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/bandung/tangkubanParahu.jpg" class="card-img-top" alt="Gunung Tangkuban Parahu">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gntangkubanparahu.html">Gunung Tangkuban Parahu</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Malabar -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/bandung/malabar.jpg" class="card-img-top" alt="Gunung Malabar">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnmalabar.html">Gunung Malabar</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Manglayang -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/bandung/manglayang.jpg" class="card-img-top" alt="Gunung Manglayang">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnmanglayang.html">Gunung Manglayang</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Papandayan -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/garut/papandayan.jpg" class="card-img-top" alt="Gunung Papandayan">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnpapandayan.html">Gunung Papandayan</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Cikuray -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/garut/cikuray.jpg" class="card-img-top" alt="Gunung Cikuray">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gncikuray.html">Gunung Cikuray</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Guntur -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/garut/guntur.jpg" class="card-img-top" alt="Gunung Guntur">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnguntur.html">Gunung Guntur</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Salak -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/bogor/salak.jpg" class="card-img-top" alt="Gunung Salak">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnsalak.html">Gunung Salak</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Pancar -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/bogor/pancar.jpg" class="card-img-top" alt="Gunung Pancar">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnpancar.html">Gunung Pancar</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Jonggol -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/bogor/jonggol.jpg" class="card-img-top" alt="Gunung Jonggol">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnjonggol.html">Gunung Jonggol</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Batu -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/lembang/batu.jpg" class="card-img-top" alt="Gunung Batu">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnbatu.html">Gunung Batu</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Putri -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/lembang/putri.jpg" class="card-img-top" alt="Gunung Putri">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnputri.html">Gunung Putri</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gunung Burangrang -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="aset/lembang/burangrang.jpg" class="card-img-top" alt="Gunung Burangrang">
+              <div class="card-body">
+                <p class="card-text"><a href="../opentrip/Gnburangrang.html">Gunung Burangrang</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+
+
+<!-- Akhir Open Trip-->
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Apa Itu Open Trip Gunung di Jawa Barat?</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+ 
+     <!-- Apa Itu Open Trip Gunung di Jawa Barat Section -->
+     <section id="Update Terbaru" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Apa Itu Open Trip Gunung di Jawa Barat?</h2>
+        <br> 
+        <br>
+    
+        <div class="content">
+          <div>
+            <h3>Pengertian Open Trip</h3>
+            <p>
+              Open Trip adalah program perjalanan wisata alam yang terbuka untuk umum, di mana para peserta dapat bergabung dengan grup pendaki yang sudah terorganisir. Biasanya, Open Trip menyediakan pemandu, transportasi, dan fasilitas lainnya untuk memastikan pendakian berjalan lancar. Ini adalah kesempatan bagus bagi siapa saja yang ingin merasakan pengalaman mendaki gunung tanpa perlu khawatir tentang perencanaan perjalanan atau logistik.
+            </p>
+          </div>
+          <div>
+            <h3>Keuntungan Mengikuti Open Trip</h3>
+            <ul>
+              <li><strong>Aman dan Terorganisir:</strong> Semua kebutuhan logistik, pemandu, dan transportasi sudah diatur.</li>
+              <li><strong>Teman Baru:</strong> Bertemu dengan orang-orang baru yang memiliki minat yang sama.</li>
+              <li><strong>Pengalaman Seru:</strong> Menikmati keindahan alam Jawa Barat bersama dengan grup yang sudah berpengalaman.</li>
+              <li><strong>Biaya Terjangkau:</strong> Biaya pendakian biasanya lebih murah karena dibagi dengan peserta lain.</li>
+              <li><strong>Beragam Destinasi:</strong> Open Trip sering kali menawarkan berbagai pilihan gunung untuk didaki, seperti Gunung Pangrango, Gunung Gede, Gunung Ciremai, dan banyak lagi.</li>
+            </ul>
+          </div>
+        </div>
+    
+        <h3 class="mt-4">Destinasi Populer untuk Open Trip di Jawa Barat</h3>
+        <p>
+          Beberapa destinasi pendakian gunung di Jawa Barat yang sering ditawarkan dalam Open Trip antara lain:
+        </p>
+        <ul>
+          <li><strong>Gunung Pangrango:</strong> Dengan pemandangan alam yang menakjubkan dan jalur pendakian yang cukup menantang.</li>
+          <li><strong>Gunung Gede:</strong> Salah satu gunung paling populer di Jawa Barat, dengan jalur pendakian yang relatif mudah.</li>
+          <li><strong>Gunung Ciremai:</strong> Gunung tertinggi di Jawa Barat yang menawarkan pemandangan spektakuler dari puncaknya.</li>
+          <li><strong>Gunung Papandayan:</strong> Menyediakan pemandangan kawah yang aktif dan padang edelweiss yang indah.</li>
+        </ul>
+    
+        <h3 class="mt-4">Cara Mengikuti Open Trip</h3>
+        <p>
+          Untuk mengikuti Open Trip, Anda bisa mendaftar melalui agen perjalanan wisata yang menyediakan program pendakian gunung. Proses pendaftarannya sangat mudah, biasanya cukup dengan mengisi formulir online dan melakukan pembayaran. Pastikan untuk memeriksa jadwal, harga, dan peraturan yang berlaku sebelum mendaftar.
+        </p>
+      </div>
+    </section>
+    
+ 
+     <!-- Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+ </html>
+ 

@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    padding: 1rem;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.intro {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.details h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 2rem;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    margin-bottom: 0.5rem;
+}
+
+.details img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
